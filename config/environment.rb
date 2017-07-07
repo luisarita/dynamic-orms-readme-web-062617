@@ -6,9 +6,9 @@ DB[:conn].execute("DROP TABLE IF EXISTS songs")
 
 sql = <<-SQL
   CREATE TABLE IF NOT EXISTS songs (
-  id INTEGER PRIMARY KEY,
-  name TEXT,
-  album TEXT
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    album TEXT
   )
 SQL
 
